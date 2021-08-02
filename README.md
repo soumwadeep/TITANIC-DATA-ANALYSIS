@@ -1,7 +1,12 @@
 
-# titanic
-#Titanic Survival Prediction
+# Introduction
+This analysis attempts to predicate the probability for survival of the Titanic passengers. In order to do this, I will use the different features available about the passengers, use a subset of the data to train an algorithm and then run the algorithm on the rest of the data set to get a prediction.
 
+In this analysis we have asked the following questions:
+1)What is the relationship the features and a passenger’s chance of survival.
+2)Prediction of survival for the entire ship.
+
+# Titanic Survival Prediction
 This repository contains some of my approaches to the Titanic survival prediction Problem from Kaggle.  The repository includes scripts for feature selection, alternate strategies for data modelling, the original test &amp; train data sets and the visualizations plots generated for the same. All code snippets are written in R.
 
 In this popular challenge, the aim is to predict what sorts of people were likely to survive the Titanic disaster based on attributes such as gender, class, ticket details , age category e.t.c . 
@@ -78,8 +83,10 @@ survival_vs_sex.pdf
 
 survived_vs_died.pdf
 
-## Contributors
+## Conclusion
+The mean of the right predictions that I got on the test set is 0.76555 with the decision tree method, 0.77990 with the logistic regression model, and 0.80382 with the random forest model.
 
+## Contributors
 1)Soumwadeep Guha
 2)Sagnik Saha
 3)Surabhi Saha
